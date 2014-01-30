@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	style="@style/VocabActionBar">
+    
+    <include layout="@layout/action_bar_title"/>
+    
+    <ImageButton android:id="@id/action_bar_btn_cancel"
+        	android:src="@drawable/ic_back"
+        	style="@style/VocabActionBarButton"/>
+</LinearLayout>

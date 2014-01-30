@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:scaleType="center"
+        android:background="@drawable/title_background"
+        android:src="@drawable/ic_vocab"/>
+    
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@id/action_bar_txt_title"
+		android:textStyle="bold"
+		android:textColor="#ffffffff"
+		android:text="@string/vocab_note_book"
+		android:gravity="center_vertical"
+		android:paddingLeft="5dp"
+		android:textSize="16sp"
+		android:layout_gravity="center_vertical|left"
+		android:layout_weight="1"
+		android:layout_width="0dp"
+		android:background="@drawable/title_background"
+		android:layout_height="match_parent"/>
+</merge>

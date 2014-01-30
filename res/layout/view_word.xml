@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/view_word_action_bar"/>
+    
+    <ScrollView
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+		<LinearLayout android:layout_width="match_parent"
+			android:layout_height="44dp"
+			android:orientation="horizontal"
+			android:background="@drawable/entity_hdr">
+				
+		    	<TextView android:id="@id/view_word_txt_word"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:textStyle="bold"
+				android:textSize="16sp"
+				android:textColor="#ff000000"
+				android:paddingLeft="4dp"
+				android:layout_gravity="center_vertical"
+				android:gravity="center_vertical|left"
+				android:layout_weight="1"/>
+
+		    	<TextView android:id="@id/view_word_txt_date"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:textSize="12sp"
+				android:textColor="#ff000000"
+				android:paddingRight="4dp"
+				android:layout_gravity="center_vertical|right"
+				android:gravity="center_vertical|right"/>
+		</LinearLayout>
+
+		<LinearLayout android:id="@id/view_word_panl_states"
+				android:gravity="right"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="5dp"
+				android:layout_marginTop="5dp"
+				android:paddingRight="4dp"
+				android:background="#ffffffff"/>
+
+		<View android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:background="@drawable/entity_hdr"/>
+
+		    <TextView android:id="@id/view_word_txt_note"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:paddingLeft="5dp"
+			android:paddingTop="5dp"
+			android:paddingRight="5dp"
+			android:paddingBottom="5dp"
+			android:textColor="#ff000000"
+			android:gravity="left"/>
+	</LinearLayout>
+    </ScrollView>
+</LinearLayout>

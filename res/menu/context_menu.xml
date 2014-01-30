@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemMarkUnmark" android:title="@string/mark_unmark"></item>
+    <item android:id="@+id/itemDelete" android:title="@string/delete_item"></item>
+    <item android:id="@+id/itemOpenDict" android:title="@string/open_dict"></item>
+    <item android:id="@+id/itemOpenLongman" android:title="@string/open_longman"></item>
+    <item android:id="@+id/itemTranslate" android:title="@string/translate"></item>
+    <item android:id="@+id/itemSearchWeb" android:title="@string/search_web"></item>
+</menu>

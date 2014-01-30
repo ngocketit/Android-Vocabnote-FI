@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, VocabNoteBookActivity!</string>
+    <string name="app_name">Vocab Note Finnish</string>
+    <string name="type_here_to_search">Type here to search</string>
+    <string name="no_word">No word</string>
+    <string name="add_word">Add word</string>
+    <string name="add_new_word">Type new word here</string>
+    <string name="mark_review">Mark this word for review</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="about">About</string>
+    <string name="mark_unmark">Mark/unmark item</string>
+    <string name="open_dict">Open with Cambridge</string>
+    <string name="context_menu_header">Select an action</string>
+    <string name="delete_success">Item is deleted</string>
+    <string name="delete_failure">Fail to delete item</string>
+    <string name="delete_item">Delete word</string>
+    <string name="delete_item_message">Do you want to delete this word?</string>
+    <string name="vocab_note_book">Vocab Note</string>
+    <string name="show_hide_mark">Show/hide marked items</string>
+    <string name="about_title">About</string>
+    <string name="about_message">&lt;b&gt;Vocabulary Note Book&lt;/b&gt; - version 2.0&lt;br/&gt;Mailto: &lt;a href=&quot;mailto:ngocketit@gmail.com&quot;&gt;ngocketit@gmail.com&lt;/a&gt;</string>
+    <string name="open_longman">Open with Longman</string>
+    <string name="translate">Translate to Vietnamese</string>
+    <string name="toLanguage">To language:</string>
+    <string name="translating">Translating please wait...</string>
+    <string name="translateFail">Translation failed</string>
+    <string name="translate_btn">Translate</string>
+    <string name="add_new_word_note">Type your note here</string>
+    <string name="edit_word">Edit Word</string>
+    <string name="word_no_note">Word has no note</string>
+    <string name="change_word_state">Change word state</string>
+    <string name="update_success">Word is updated</string>
+    <string name="update_failure">Failed to update word</string>
+    
+    <string name="vietnamese">Vietnamese</string>
+    <string name="finnish">Finnish</string>
+    <string name="french">French</string>
+    <string name="search_web">Search on Web</string>
+    
+    <string name="cambridge_not_installed">Cambridge dictionary not installed</string>
+    <string name="longman_not_installed">Longman dictionary not installed</string>
+    <string name="google_translate_not_installed">Google Translate app not installed</string>
+    <string name="failed_open_longman">Failed to open Longman dictionary</string>
+    <string name="tts_download_confirm">TTS data is not availabe. Download it now ?</string>
+    <string name="tts_language_not_available">English data is missing or not supported</string>
+    <string name="tts_download_title">Download TTS data</string>
+    
+    <string name="qa_mark">Mark</string>
+    <string name="qa_delete">Delete</string>
+    <string name="qa_cambridge">Cambridge</string>
+    <string name="qa_longman">Longman</string>
+    <string name="qa_translate">Translate</string>
+    <string name="qa_search">Search</string>
+    <string name="qa_note">Note</string>
+    <string name="qa_speak">Speak</string>
+    <string name="qa_copy">Copy</string>
+
+    <string name="dmi_show_all">Show all</string>
+    <string name="dmi_pronun_review">Pronunciation review</string>
+    <string name="dmi_gramma_review">Grammar review</string>
+    <string name="dmi_colloc_review">Collocation review</string>
+    <string name="dmi_phrasa_review">Phrasal verb review</string>
+    <string name="dmi_by_date">By date</string>
+    <string name="dmi_learnt_words">Learnt words</string>
+    <string name="dmi_unlearnt_words">Unlearnt words</string>
+    <string name="dmi_with_note">Words with note</string>
+
+    <string name="wsp_gramma">Gramma</string>
+    <string name="wsp_pronun">Pronun</string>
+    <string name="wsp_phrasa">Phrasa</string>
+    <string name="wsp_colloc">Colloc</string>
+
+    <string name="mark_learnt">Mark as learnt</string>
+    <string name="mark_unlearnt">Mark as unlearnt</string>
+
+    <string name="copy_success">Copied to clipboard</string>
+</resources>

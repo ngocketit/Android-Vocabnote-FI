@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@id/word_list_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone">
+		
+	<LinearLayout android:id="@+id/list_empty_view_view"
+		android:layout_width="wrap_content"
+    	    	android:layout_height="wrap_content"
+    	    	android:orientation="vertical"
+    	    	android:layout_centerInParent="true">
+    	    	
+    	    <ImageView
+		android:id="@+id/list_empty_view_icon"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center_horizontal"
+            	android:scaleType="fitXY"
+            	android:src="@drawable/no_word" />
+    	    
+    	    <TextView android:text="@string/no_word"
+		android:id="@+id/list_empty_view_text"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_marginTop="10dp"
+    	        android:textSize="20sp"
+    	        android:textColor="#ff856f62"
+    	        android:gravity="center|center_horizontal"
+    	        android:layout_gravity="center_horizontal"
+    	        android:textStyle="bold"/>
+        </LinearLayout>
+</RelativeLayout>

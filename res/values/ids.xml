@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_bar_txt_title">false</item>
+    <item type="id" name="action_bar_btn_add">false</item>
+    <item type="id" name="action_bar_btn_filter">false</item>
+    <item type="id" name="action_bar_btn_edit">false</item>
+    <item type="id" name="action_bar_btn_done">false</item>
+    <item type="id" name="action_bar_btn_cancel">false</item>
+    
+    <item type="id" name="search_bar_etxt_word">false</item>
+    <item type="id" name="search_bar_btn_clear">false</item>
+    
+    <item type="id" name="add_word_etxt_word">false</item>
+    <item type="id" name="add_word_etxt_note">false</item>
+    <item type="id" name="add_word_rbtn_mark_learnt">false</item>
+    <item type="id" name="add_word_rbtn_mark_unlearnt">false</item>
+    <item type="id" name="add_word_rgrp_word_state">false</item>
+    
+    <item type="id" name="menu_item_img_icon">false</item>
+    <item type="id" name="menu_item_txt_name">false</item>
+    <item type="id" name="menu_lst_items">false</item>
+    
+    <item type="id" name="view_word_txt_word">false</item>
+    <item type="id" name="view_word_txt_date">false</item>
+    <item type="id" name="view_word_txt_note">false</item>
+    <item type="id" name="view_word_btn_edit">false</item>
+    <item type="id" name="view_word_panl_states">false</item>
+    
+    <item type="id" name="list_item_txt_date">false</item>
+    <item type="id" name="list_item_txt_word">false</item>
+    
+    <item type="id" name="main_lst_words">false</item>
+    <item type="id" name="word_list_empty_view">false</item>
+    
+    <item type="id" name="filter_date_item_txt_date">false</item>
+    <item type="id" name="filter_date_item_txt_count">false</item>
+    <item type="id" name="filter_date_lst_items">false</item>
+    <item type="id" name="filter_date_lst_empty_view">false</item>
+
+    <item type="id" name="word_state_panel">false</item>
+    <item type="id" name="word_state_panel_btn_gramma">false</item>
+    <item type="id" name="word_state_panel_btn_pronun">false</item>
+    <item type="id" name="word_state_panel_btn_phrasa">false</item>
+    <item type="id" name="word_state_panel_btn_colloc">false</item>
+</resources>

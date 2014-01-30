@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+        
+	<RadioGroup android:id="@id/add_word_rgrp_word_state"
+                android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_marginTop="4dp">
+		
+		<RadioButton android:id="@id/add_word_rbtn_mark_learnt"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/mark_learnt"/>
+
+		<RadioButton android:id="@id/add_word_rbtn_mark_unlearnt"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/mark_unlearnt"/>
+	</RadioGroup>
+
+	<LinearLayout android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+		<ToggleButton android:id="@id/word_state_panel_btn_gramma"
+			android:textOn="@string/wsp_gramma"
+			android:textOff="@string/wsp_gramma"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"/>
+		<ToggleButton android:id="@id/word_state_panel_btn_colloc"
+			android:textOn="@string/wsp_colloc"
+			android:textOff="@string/wsp_colloc"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"/>
+		<ToggleButton android:id="@id/word_state_panel_btn_pronun"
+			android:textOn="@string/wsp_pronun"
+			android:textOff="@string/wsp_pronun"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"/>
+		<ToggleButton android:id="@id/word_state_panel_btn_phrasa"
+			android:textOn="@string/wsp_phrasa"
+			android:textOff="@string/wsp_phrasa"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+</merge>
